@@ -30,5 +30,5 @@ pnpm run jest
 Run tests using Cypress:
 
 ```sh
-pnpm run cypress
+pnpm run e2e
 ```
