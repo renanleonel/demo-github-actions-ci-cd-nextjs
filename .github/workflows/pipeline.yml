@@ -31,7 +31,7 @@ jobs:
             - name: run tests with jest
               run: npm run jest
 
-            - name: run tests with cypress
+            - name: run e2e tests with cypress
               run: npm run e2e
 
             - name: build project
