@@ -4,8 +4,8 @@ import { GeistSans } from 'geist/font/sans';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'APP_NAME',
-    description: 'APP_DESCRIPTION',
+    title: 'CI/CD Pipeline with GitHub Actions',
+    description: 'Guide to setting up a CI/CD pipeline with GitHub Actions for a Next.js app.',
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
                     content="initial-scale=1, viewport-fit=cover"
                 />
             </head>
-            <body>{children}</body>
+            <body className="bg-[#101010] text-white">{children}</body>
         </html>
     );
 }
